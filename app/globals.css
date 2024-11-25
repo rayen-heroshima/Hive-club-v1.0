@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-background h-screen w-screen overflow-x-hidden;
+}
+
+.scale-up-center {
+  animation: scale-up-center 0.4s ease-in-out forwards;
+  transform: tra;
+}
+
+@keyframes scale-up-center {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+
+@layer utilities {
+  .reflect-below {
+    /* -webkit-box-reflect: below 1px linear-gradient(transparent, transparent 30%, #0000005f 60%, #00000086  ); */
+    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent 30%, #00000013 60%, #00000028  );
+  }
+}
