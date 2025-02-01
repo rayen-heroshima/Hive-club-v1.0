@@ -58,7 +58,7 @@ const Navbar = () => {
             <div className="hidden lg:flex flex-row items-center gap-10">
               <p className="capitalize cursor-pointer">
                 <Link
-                  href="#home" // Scrolls to Home component
+                  href="/" // Scrolls to Home component
                   className="text-white font-open-sans font-500 -tracking-wider text-[17px]"
                 >
                   Home

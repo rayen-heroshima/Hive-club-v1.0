@@ -35,7 +35,7 @@ const Events = () => {
 
   return (
     <div className="py-12" id="events">
-      <h2 className="text-center text-4xl font-bold text-neutral-800 mb-8">
+      <h2 className="text-center text-4xl font-bold text-white">
         Events
       </h2>
       <div className="max-w-screen-xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
