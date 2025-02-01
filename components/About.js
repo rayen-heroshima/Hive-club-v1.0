@@ -22,7 +22,7 @@ export default function About() {
             </video>
           </div>
           <p className="text-white text-lg leading-relaxed md:leading-relaxed">
-            شكون ال <span className="text-[#FBA705] font-semibold">Hive Club</span> ؟؟ كيما إسمها Hive " خلية " و Team تحب إطور و تتطور، بدأت تنشط في ال
+            شكون ال <span className="text-[#FBA705] font-semibold">Hive Club</span> ؟؟ كيما إسمها Hive &quot; خلية &quot; و Team تحب إطور و تتطور، بدأت تنشط في ال
             <span className="text-[#FBA705] font-semibold"> Problem solving </span> و ال
             <span className="text-[#FBA705] font-semibold"> Competitive programming </span> مبعد زدنا ال
             <span className="text-[#FBA705] font-semibold"> Web development </span>.
@@ -32,16 +32,18 @@ export default function About() {
         {/* Right Column */}
         <div className="flex flex-col justify-around gap-8 md:gap-20">
           <p className="text-white text-lg leading-relaxed md:leading-relaxed">
-            شكون ال <span className="text-[#FBA705] font-semibold">Hive Club</span> ؟؟ كيما إسمها Hive " خلية " و Team تحب إطور و تتطور، بدأت تنشط في ال
+            شكون ال <span className="text-[#FBA705] font-semibold">Hive Club</span> ؟؟ كيما إسمها Hive &quot; خلية &quot; و Team تحب إطور و تتطور، بدأت تنشط في ال
             <span className="text-[#FBA705] font-semibold"> Problem solving </span> و ال
             <span className="text-[#FBA705] font-semibold"> Competitive programming </span> مبعد زدنا ال
             <span className="text-[#FBA705] font-semibold"> Web development </span>.
           </p>
           <div className="relative pr-6">
-            <img
+            <Image
               src="/whoIs.jpg"
               className="h-auto w-auto relative z-20 ml-4 mr-8 rounded-lg transition-transform duration-500 ease-in-out transform hover:scale-105 shadow-lg"
               alt="Hive Club Image"
+              width={500}
+              height={500}
             />
           </div>
         </div>
